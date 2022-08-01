@@ -1,0 +1,68 @@
+.linii{
+    color: #FF681D;
+}
+.searchBar {
+    width: 70%;
+  }
+.list-group{
+    width: 270px;
+    line-height: 80%;
+}
+.page {
+    width: 90%;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.listStyle{
+    list-style-position: inside;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftList{
+    float: left;
+    width: 249px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.textColor{
+    color: #FF681D;
+}
+.marketPlace{
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner{
+    display: flex;
+}
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    position: relative;
+  }
+  .footer-item {
+    margin: 0 7.2% 0 0;
+  }
+  .link{
+    color: black;
+    text-decoration: auto;
+  }

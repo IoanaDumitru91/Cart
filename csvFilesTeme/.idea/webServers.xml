@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc33b913-eb2e-4c9b-a7bb-fd775aa94106" name="Php" url="http://45.15.23.59">
+        <fileTransfer host="45.15.23.59" port="22" rootFolder="/var/www/html/national03/ioana" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

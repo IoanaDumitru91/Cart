@@ -1,0 +1,285 @@
+.container{
+    width:1280px;
+}
+.menu{
+    color:blue;
+    display: inline-block;
+    margin:6px 0;
+    font-size: 2rem;
+}
+
+.sigla img{
+    max-width: 70%;
+    min-width: 50%;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.searchcont{
+    display: inline;
+    font-size: 16px;
+    height:80%;
+    width: 100%;
+    border-radius: 17px;
+    margin-top: 10px;
+    margin-left:1px;
+    border: 1px solid cornflowerblue;
+    padding-left: 40px;
+}
+.searchbar input{
+    margin-left: 10px;
+    padding-left: 10px;
+
+}
+.iconsright i{
+    display: inline-block;
+    margin-left:12px;
+    color:blue;
+    font-size: 2rem;
+
+}
+.avatar{
+    margin-left: 80px;
+    margin-right:-22px;
+}
+.heart{
+    margin-left:-20px;
+    margin-right:-17px;
+}
+.cart{
+    margin-left: -13px;
+    margin-right:-14px;
+}
+.colorbar{
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right,
+    #ff1d25 5%,#a0328c 35%,#7040a4 45%,#4359c7 55%,#0082e6 70%);
+}
+.menubar{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-image: linear-gradient(to right,
+    #ff1d25 5%,#a0328c 35%,#7040a4 45%,#4359c7 55%,#0082e6 70%);
+    height:50px
+}
+.texticon {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.firstrow span{
+    display:inline;
+    color:black;
+    padding-left: -10px;
+}
+
+.menubar.btn.btn-danger{
+    color: transparent;
+}
+.menubar div{
+     float: left;
+    color:white;
+    padding-top: 10px;
+}
+.fa-search{
+    position: relative;
+    margin-left:-35px;
+    margin-top:25px;
+    font-size: 20px;
+    float:left}
+.lupa1 {
+    float: left;
+    display: inline;
+    font-size:20px;
+    margin-left:-60px;
+    padding-top:-40px;
+    color: #0b7dda;
+    margin-top: 20px;
+}
+.lupa.fa{
+    font-size:30px;
+    margin-left:8px;
+    margin-top:1px;
+    padding-top:-40px;
+    color: #0b7dda;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.commerc1{
+    width:100%;
+    top: 0px;
+    height: 100px;
+    display: block;
+
+}
+.fa-facebook {
+   float: right;
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+.codprod{
+    float: left;
+    margin-left: 10px;
+}
+.share{
+    float: right;
+    padding: 5px;
+    font-size:15px;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+
+}
+.socialmedia{
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.compara{
+    float:left;
+    margin-left:15px;
+    margin-top: 10px;
+    height: 25px;
+    width: 130px;
+    background-color: #dddddd;
+    text-align: center;
+}
+.check{
+    margin-left: 8px;
+
+}
+.redbox1{
+    height: 32px;
+    width: 92px;
+    background-color:crimson;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+.redbox2{
+    height: 32px;
+    width: 92px;
+    background-color:red;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+}
+.opinia{
+    display: inline;
+}
+.gbox{
+    height: 155px;
+    width: 15px;
+    background-color: #0b7dda;
+
+}
+.graybox {
+    width: 90%;
+    height: 155px;
+    background-color: #dddddd;
+    text-align: left;
+}
+.btn-danger{
+    display: inline;
+}
+.imglaptop{
+    text-align: center;
+}
+
+.hov:hover{
+    box-shadow:inset 0 0 0 2px #ff3e1c;
+    background-color: #dddddd;
+
+}
+.whitebox{
+    width: 100%;
+    height:350px;
+    background-color: snow;
+    border: 1px solid gainsboro;
+    text-align:left;
+    padding-left:50px;
+}
+.cumparaimpreuna{
+    border: solid 1px gray;
+}
+.mairecomand{
+    background-color: #dddddd;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height:50px;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height:100%;
+}
+.pretgroup{
+    align-content:center;
+}
+.img-center {
+     display: block;
+     margin: 0 auto;
+ }
+.procent{
+    height: 20px;
+    width: 80px;
+    background-color:red;
+    color: white;
+    float:left;
+    padding-left: 5px;
+    margin-top:10px;
+}
+.card{
+    align-content: center;
+    text-align: center;
+    width:100%;
+    height:100%;
+    min-height: 350px;
+    border: 1px solid blue;
+    margin-left:2px;
+
+}
+.fa-heart-o{
+    font-size: 28px;
+    color: #0b7dda;
+    float: right;
+    margin-top:-24px;
+    margin-left: 120px;
+
+}
+i.fa-heart-o:hover {
+    color:red;
+}
+.favhov:hover .tooltiptext{
+     visibility: visible;
+ }
+.tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color:#0b7dda;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}

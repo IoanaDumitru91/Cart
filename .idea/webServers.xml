@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="57521c96-a8a1-4aeb-9617-000c81a7e142" name="national03" url="http://45.15.23.59">
+        <fileTransfer host="45.15.23.59" port="22" rootFolder="/var/www/html/national03/ioana" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

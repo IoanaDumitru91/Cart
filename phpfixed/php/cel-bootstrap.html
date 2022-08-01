@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cel.ro Bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cel-bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container-fluid limited-width">
+        <div class="row align-items-center header-row">
+            <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
+                <div class="logo-div">
+                    <img src="https://s1.cel.ro/images/logo/cel.png">
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-9 col-lg-5 col-xl-6">
+                <div class="search-div">
+                    <form class="search-form">
+                        <input type="search" placeholder="Cauta un produs.." class="search-input">
+                        <button type="submit" class="search-button"><i class="bi bi-search search-icon"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-5 col-xl-4">
+                <div class="account-links">
+                    <a class="account-link" href="#">
+                        <i class="bi bi-person-square account-icon"></i>
+                        <span>Contul<br>Meu</span>
+                    </a>
+                    <a class="account-link" href="#">
+                        <i class="bi bi-heart-pulse account-icon"></i>
+                        <span>Produse<br>comparate</span>
+                    </a>
+                    <a class="account-link" href="#">
+                        <i class="bi bi-basket account-icon"></i>
+                        <span>Cos<br>Cumparaturi</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid limited-width">
+        <div class="row align-items-center header-row">
+            <div class="col-sm-12 col-md-4 col-lg-3">
+                <div class="left-section">
+                    <i class="bi bi-list hamburger"></i>
+                    <span class="menu-span">Categorii Produse</span>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-9 rca-bar">
+                <div class="right-section">
+                    <a class="menu-item">
+                        <i class="bi bi-bell"></i>
+                        <span>Produsele zilei</span></a>
+                    <a class="menu-item">
+                        <i class="bi bi-envelope"></i>
+                        <span>RCA Ieftin</span></a>
+                    <a class="menu-item">
+                        <i class="bi bi-arrow-clockwise"></i>
+                        <span>Retur</span></a>
+                    <a class="menu-item">
+                        <i class="bi bi-tools"></i>
+                        <span>Service</span></a>
+                    <a class="menu-item">
+                        <i class="bi bi-telephone"></i>
+                        <span>Contact</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid limited-width">
+        <div class="row body-row">
+            <div class="col-sm-12 col-md-12 col-lg-2">
+                <div id="sidebar">
+                    <div class="filter-name">
+                        <span class="sidebar-opt">Producator</span>
+                    </div>
+                    <div class="selections">
+                        <a class="filter-options">Acer</a>
+                        <a class="filter-options">Alienware</a>
+                        <a class="filter-options">Allview</a>
+                        <a class="filter-options">Apple</a>
+                        <a class="filter-options">Asus</a>
+                        <a class="filter-options">Dell</a>
+                        <a class="filter-options">Fujitsu</a>
+                        <a class="filter-options">Gigabyte</a>
+                        <a class="filter-options">Hewlett Packard</a>
+                        <a class="filter-options">Hp</a>
+                        <a class="filter-options">Huawei</a>
+                        <a class="filter-options">Hummingbird</a>
+                        <a class="filter-options">Insys</a>
+                        <a class="filter-options">Kruger Matz</a>
+                        <a class="filter-options">Lenovo</a>
+                        <a class="filter-options">Microsoft</a>
+                        <a class="filter-options">Msi</a>
+                        <a class="filter-options">Other</a>
+                    </div>
+                    <div>
+                        <a class="more-button">Vezi mai putine</a>
+                    </div>
+                    <div class="filter-name">
+                        <span class="sidebar-opt">Procesor</span>
+                    </div>
+                    <div class="selections">
+                        <a class="filter-options">AMD</a>
+                        <a class="filter-options">Ryzen 3</a>
+                        <a class="filter-options">Ryzen 5</a>
+                        <a class="filter-options">Ryzen 7</a>
+                        <a class="filter-options">Apple M1</a>
+                    </div>
+                    <div>
+                        <a class="more-button">Vezi mai multe</a>
+                    </div>
+                    <div class="filter-name">
+                        <span class="sidebar-opt">Platforma procesor</span>
+                    </div>
+                    <div class="selections">
+                        <a class="filter-options">Alder Lake</a>
+                        <a class="filter-options">Apollo Lake</a>
+                        <a class="filter-options">Zen 1</a>
+                        <a class="filter-options">Zen 2</a>
+                        <a class="filter-options">Zen 3</a>
+                    </div>
+                    <div>
+                        <a class="more-button">Vezi mai multe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+                <div id="products">
+                    <div class="sorting">
+                        <div class="sortby">
+                            <form>
+                                <label for="sorter">Sorteaza dupa</label>
+                                <select id="sorter">
+                                    <option value="vandute">Vandute</option>
+                                    <option value="vandute">Vazute</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="listing">
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <div class="banner">
+                            <a href="https://cel.ro/" target="_blank">
+                                <img src="https://s1.cel.ro/images/bner/windows.jpg?lstmod=1637418843">
+                            </a>
+                        </div>
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <div class="banner">
+                            <a href="https://cel.ro/" target="_blank">
+                                <img
+                                    src="https://s1.cel.ro/images/bner/office.jpg?lstmod=1637418806https://s1.cel.ro/images/bner/office.jpg?lstmod=1637418806">
+                            </a>
+                        </div>
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                        <!-- Item begin -->
+                        <div class="item">
+                            <div class="product-top">
+                                <div class="prod-img">
+                                    <img
+                                        src="https://s1.cel.ro/images/Products/2021/08/05/Laptop-ASUS-X515MA-Intel-Celeron-N4020-256GB-SSD-4GB-FullHD-Transparent-Silver.jpg">
+                                </div>
+                            </div>
+                            <div class="prod-info">
+                                <div class="prod-price">
+                                    <div class="price">
+                                        <span class="price-value">1099</span>
+                                        <span class="currency">lei</span>
+                                    </div>
+                                </div>
+                                <span class="prod-title">Laptop ASUS X515MA Intel Celeron N4020 256GB SSD 4GB FullHD
+                                    Transparent
+                                    Silver</span>
+                            </div>
+                            <a class="tocart">
+                                <i class="bi bi-cart2 cart-icon"></i>
+                                <span>Adauga in cos</span>
+                            </a>
+                            <div class="product-bottom">
+                                <div class="stock-status">
+                                    <span>
+                                        <i class="bi bi-check-circle stock-green"></i>
+                                        <strong class="stock-green">In stoc</strong>
+                                    </span>
+                                </div>
+                                <div class="soldby">
+                                    <div class="sold">
+                                        Vandut de
+                                        <span class="special-seller">CEL.ro</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
